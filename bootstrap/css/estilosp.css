@@ -1,0 +1,50 @@
+.callout{border: 1px solid;} /*uso como guia*/
+header{background-color: #f2f5de;}
+body{background-color: #bf5e5e;}
+.plogo{
+  margin: 2em;
+  width: 9.5em;
+}
+.rlogo{
+  width: 40px;
+  height: 40px;
+}
+.logosp{margin-top: 7.8em;}
+.container-fluid {
+  background-color: #f6e4d5;
+  border-radius: 4px;
+  padding-top: 15px;
+}
+.navbar-prop{
+  text-decoration: none;
+  color: #752a00;
+  width: 100%;}
+.bar-nav{background-color:rgb(255, 210, 77);}
+.navp{margin-top: 14px;}
+.navbar-prop:hover{
+  color: black;
+  background-color: #fffbe8;
+  text-decoration: none;
+  padding: 17px;
+}
+@media (max-width: 991px) {.navbar-prop:hover{padding: 4px;}}
+@media (max-width: 768px) {
+  .navbar-prop:hover{padding: 15px;}
+  .bar-nav{padding-bottom: 12px;}
+}
+.img_music{width: 100%;}
+
+.img_us{
+  margin-bottom: 10px;
+  width: 100%;}
+  @media (max-width: 767px) {
+    .img_us{margin-top: 20px;width: 30px;}
+  }
+  .form-controlp{
+    height: 46px;
+    font-size: 15px;
+    line-height: 1;
+    border-radius: 6px;
+  }
+  .lup-busc{width: 20px;}
+  .listap{margin-top: 30px;}
