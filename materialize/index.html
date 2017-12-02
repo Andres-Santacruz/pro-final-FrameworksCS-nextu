@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <!--Importar la fuente de los íconos de Google-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Importar la hojas de estilos de materialize css-->
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link rel="stylesheet" href="css/estilosP.css">
+    <title>Turismo Blog</title>
+  </head>
+  <body>
+    <header class="padding-Prop">
+      <div class="row">
+        <div class="col s5 m2 l2 offset-l1">
+          <img src="img/logo.jpg" alt="logo" class="responsive-img logo">
+        </div>
+        <div class="col s7 m10 l9 right-align">
+            <a class="waves-effect waves-light btn btn-prop"><i class="material-icons left">home</i><span class="hide-on-small-and-down">Inicio</span></a>
+            <a class="waves-effect waves-light btn btn-prop"><i class="material-icons left">add_location</i><span class="hide-on-small-and-down">estuve en...</span></a>
+            <a class="waves-effect waves-light btn btn-prop"><i class="material-icons left">star</i><span class="hide-on-small-and-down">mejores viajes</span></a>
+            <a class="waves-effect waves-light btn btn-prop"><i class="material-icons left">sms_failed</i><span class="hide-on-small-and-down">recomendado</span></a>
+        </div>
+        <div class="col push-l1 l6 m12 s12">
+          <h4 class="left-align padding-Prop">Creando mi camino</h4>
+        </div>
+      </div>
+    </header>
+
+    <div class="row">
+      <div class="col l1 m1 hide-on-small-and-down">
+        <ul>
+          <li><a href="https://www.facebook.com" class=""><img src="img/redes/fbk.png" alt="" class="responsive-img redes"></a></li>
+          <li><a href="#" class=""><img src="img/redes/twt.png" alt="" class="responsive-img redes"></a></li>
+          <li><a href="#" class=""><img src="img/redes/inst.png" alt="" class="responsive-img redes"></a></li>
+          <li><a href="https://www.youtube.com" class=""><img src="img/redes/ytbe.png" alt="" class="responsive-img redes"></a></li>
+          <li><a href="https://plus.google.com" class=""><img src="img/redes/ggle.png" alt="" class="responsive-img redes"></a></li>
+        </ul>
+      </div>
+      <div class="col l4 m4">
+        <img src="img/galeria1.jpg" alt="" class="responsive-img z-depth-5">
+        <div class="col l12">
+          <img src="img/galeria2.jpg" alt="" class="responsive-img z-depth-5">
+        </div>
+      </div>
+      <div class="col l4 m4">
+        <img src="img/galeria3.jpg" alt="" class="responsive-img z-depth-5">
+      </div>
+      <div class="col l3 m3">
+        <img src="img/galeria4.jpg" alt="" class="responsive-img z-depth-5">
+        <div class="col l12">
+          <img src="img/galeria5.jpg" alt="" class="responsive-img z-depth-5">
+        </div>
+        <div class="col l12">
+          <img src="img/galeria6.jpg" alt="" class="responsive-img z-depth-5">
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col l9 m8">
+        <div class="card-panel grey lighten-5 z-depth-4">
+         <div class="row">
+           <div class="col s12 l4">
+             <img src="img/entrada1.jpg" alt="" class="responsive-img"> <!-- notice the "circle" class -->
+           </div>
+           <div class="col s12 l8">
+             <h5>Barcelona:</h5>
+             <div class="chip">
+                26 Noviembre 2017<i class="tiny material-icons">date_range</i>
+            </div>
+            <div class="chip">
+               Popayan, Colombia<i class="tiny material-icons">place</i>
+           </div> <br>
+             <span class="black-text">
+               Barcelona es una ciudad española, capital de la comunidad autónoma de Cataluña, de la comarca del Barcelonés y de la provincia homónima.
+               Con una población de 1 608 746 habitantes en 2016,​ es la segunda ciudad más poblada de España después de Madrid, y la undécima de la Unión Europea.
+             </span>
+           </div>
+           <div class="col l12">
+             <span class="black-text">Se ubica a orillas del mar Mediterráneo, a unos 120 km al sur de la cadena montañosa de los Pirineos y de la frontera con Francia, en un pequeño llano litoral limitado por el mar al este, la sierra de Collserola al oeste, el río Llobregat al sur y el río Besós al norte. Por haber sido capital del condado de Barcelona, se suele aludir a ella con la denominación antonomástica de Ciudad Condal. Barcelona ha sido escenario de diversos acontecimientos internacionales que han contribuido a consolidarla, desarrollarla y darle proyección mundial.</span>
+           </div>
+         </div>
+       </div>
+
+       <div class="row fondo-coment">
+         <h5>Deja tu comentario:</h5>
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s6">
+              <i class="material-icons prefix">account_circle</i>
+              <input id="icon_prefix" type="text" class="validate" required>
+              <label for="icon_prefix">Nombre</label>
+            </div>
+            <div class="input-field col s6">
+              <i class="material-icons prefix">phone</i>
+              <input id="icon_telephone" type="tel" class="validate">
+              <label for="icon_telephone">Telefono</label>
+            </div>
+            <div class="input-field col s12">
+              <i class="material-icons prefix">comment</i>
+              <textarea id="textarea1" class="materialize-textarea"></textarea>
+              <label for="textarea1">Textarea</label>
+            </div>
+            <div class="input-field col s8 offset-s3 m5 offset-m4 l3 offset-l9">
+              <button class="btn waves-effect waves-light btn-prop-enviar" type="submit" name="action">Enviar
+                <i class="material-icons right">send</i>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      </div>
+      <div class="col l3 m4">
+        <div class="card-panel grey lighten-5 z-depth-4">
+          <div class="row">
+            <div class="col s12 center-align">
+              <img src="img/autor1.jpg" alt="auntor1" class="circle autor-img">
+              <h5>Perfil del autor</h5>
+              <div class="divider"></div>
+              <p>Andrés Iniesta Luján (Fuentealbilla, Albacete, España, 11 de mayo de 1984) es un futbolista español que juega como centrocampista en el Fútbol Club Barcelona de la Primera División de España, equipo del que es capitán.</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!------------->
+
+    <div class="row">
+      <div class="col l9 m8">
+        <div class="card-panel grey lighten-5 z-depth-4">
+         <div class="row">
+           <div class="col s12 l4">
+             <img src="img/entrada2.jpg" alt="entrada" class="responsive-img"> <!-- notice the "circle" class -->
+           </div>
+           <div class="col s12 l8">
+             <h5>Caño cristales:</h5>
+             <div class="chip">
+                29 Noviembre 2017<i class="tiny material-icons">date_range</i>
+            </div>
+            <div class="chip">
+               Popayan, Colombia<i class="tiny material-icons">place</i>
+           </div> <br>
+             <span class="black-text">
+               Caño Cristales es un río de Colombia que está ubicado en la sierra de la Macarena, en el departamento del Meta.
+               Ha sido denominado “el río de los dioses”, “el río de los cinco colores” o “el arco iris que se derritió”, ya que en su fondo se reproducen plantas (algas) acuáticas de diversos colores, que producen la sensación de estar frente a un río de seis colores: rojo, amarillo, verde , negro , azul y rosado principalmente
+             </span>
+           </div>
+           <div class="col l12">
+             <span class="black-text">Siendo un río de menor longitud y anchura,pero el mas hermoso, el Caño Cristales no alcanza los 100 km de longitud ni sobrepasa los 20 m de ancho. Es una sucesión de rápidos, cascadas, correones y pocetas cuyas aguas se desprenden de la meseta sur de la serranía de la Macarena, donde se ubica su nacimiento, a espaldas de los más antiguos tepuyes de la Sierra en una zona escarpada en la que se encuentran numerosas pinturas rupestres aún inexploradas.</span>
+           </div>
+         </div>
+       </div>
+
+       <div class="row fondo-coment">
+         <h5>Deja tu comentario:</h5>
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s6">
+              <i class="material-icons prefix">account_circle</i>
+              <input id="icon_prefix" type="text" class="validate" required>
+              <label for="icon_prefix">Nombre</label>
+            </div>
+            <div class="input-field col s6">
+              <i class="material-icons prefix">phone</i>
+              <input id="icon_telephone" type="tel" class="validate">
+              <label for="icon_telephone">Telefono</label>
+            </div>
+            <div class="input-field col s12">
+              <i class="material-icons prefix">comment</i>
+              <textarea id="textarea1" class="materialize-textarea"></textarea>
+              <label for="textarea1">Textarea</label>
+            </div>
+            <div class="input-field col s8 offset-s3 m5 offset-m4 l3 offset-l9">
+              <button class="btn waves-effect waves-light btn-prop-enviar" type="submit" name="action">Enviar
+                <i class="material-icons right">send</i>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      </div>
+      <div class="col l3 m4">
+        <div class="card-panel grey lighten-5 z-depth-4">
+          <div class="row">
+            <div class="col s12 center-align">
+              <img src="img/autor2.jpg" alt="auntor1" class="circle autor-img">
+              <h5>Perfil del autor</h5>
+              <div class="divider"></div>
+              <p>Brandon Andres Valencia SantaCruz Nació en Popayán en 1994 siendo el primer hijo, actualmente está estudiando ingeniería física en la universidad del cauca y también está estudiando en Next_U desarrollo Web marketing digital. Le gusta jugar mucho al fútbol y verlo y su equipo favorito es el FC BARCELONA de España</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+  </body>
+</html>

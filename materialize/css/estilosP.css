@@ -1,0 +1,28 @@
+.callout{border: 1px solid;}
+body{
+  background: url(../img/fondo.jpg);
+  background-attachment: fixed;
+  background-repeat: round;
+}
+.padding-Prop{padding-top: 2%;}
+ header div h4{text-shadow: 2px 1px 2px #02010a;}
+.fondo-nav{
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: none;
+}
+.logo{border-radius: 7px;}
+@media (max-width: 465px) {
+  .btn-prop{
+    width: 5px;
+    height: 30px;
+  }
+}
+.btn-prop, .btn-prop-enviar{background-color: rgba(46, 146, 237, 0.93);}
+.btn-prop:hover, .btn-prop-enviar:hover{background-color: #2b7abb;}
+.redes{padding-bottom: 2%;}
+.fondo-coment{
+  background-color: rgba(0, 85, 247, 0.94);
+  color: white;
+  padding: 1% 0 0 3%;
+}
+.autor-img{width: 40%;}
